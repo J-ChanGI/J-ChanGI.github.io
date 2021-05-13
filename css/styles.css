@@ -2,38 +2,155 @@
         
         *{
           box-sizing: border-box;
+         
         }
         body{
-          background-color:pink;
-          margin: 0;
-          padding: 0;
-          line-height: 1.5;
-        }
-        .nav{
-          text-align: center;
-          position: fixed;
-          top: 0;
+          background-color: black;
+              
         }
         
-        p{
-          color: black;
-          font-family: 'Cute Font', cursive; 
-
+        .navs{
+          display: flex;
+          flex-direction: row;
+          justify-content: center; 
+          align-items: flex-start;
+          margin: 100px 100px;
+        
         }
-        ul{
-          list-style-type: none ;
-          margin: 0;
-          padding: 0;
-          width: 30%;
-          height: 100%;
-          overflow: auto;
+          .Portfolio_picture{
+            width: 400px;
+            margin-right: 60px;
+          }
+          .portfolio_mysume h2{
+            font-size: 30px;
+          }
+          .Portfolio_picture p{
+            font-size: 20px;
+          }
+          .h2{
+            color: white;
+            font-size: 30px;
+          }
+          .can{
+            color: white;
+          }
+          #ul li{
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+            padding: 0px;
+  
+        }
+         /* portfolio */
+        .portfolio{ /* valus_st */
+          padding: 100px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; 
+          align-items: flex-start;
+         
+          width: 50%;
+          float: right;
+  
+        }
+       .project{              /* value */
+        display: flex;
+        flex-direction: row;
+        margin-bottom:  40px;
+        align-items: rigth;
+        margin: 30px;
+        }
+        .project_img{
+          width: 100px;
+          height: 100px;
+          margin: 15px;
+          padding: 10px;
+          border: 2px solid ;
+          border-radius: 100px;  /*- 테두리 동그라미  */
+        }
+        
+        .project_intro{
+          margin: 30px;
+       
+        }
+        .project_h4{
+          font-family:sans-serif;
+          font-weight: 700px;
+          margin-top: 0px;
+          color: white;
+          font-size: 30px;
+        }
+        .projecteone{
+          color: white;
+        }
+        a{
+          text-decoration: none;
+          color: white;
+        }
+      
+
+        /* value */
+
+        .value_st{
+          width: 50%;
           float: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: flex-start;
+          padding: 100px;
           
         }
-        li a{
+        
+        .value{
+          display: flex;
+          flex-direction: row;
+          margin-bottom:  40px;
+          align-items: center;
+          margin: 30px;
         }
-        li a:hover{
-          background-color: white;
-          color: black;
+        .value_img{
+          width: 100px;
+          height: 100px;
+          margin: 15px;
+          padding: 10px;
+          border: 2px solid ;
+          border-radius: 100px;  /*- 테두리 동그라미  */
+        }
+        .value_intro{
+          margin: 30px;
+        }
+        .value_h4{
+          font-family:sans-serif;
+          font-weight: 700px;
+          margin-top: 0px;
+          color: white;
+          font-size: 30px;
+        }
+        .valueone{
+          color: white;
+        }
+      
+        /* footer */
+        .link{
+          text-decoration: none;
+          color: white;
+          margin: 15px;
+        }
+        .link:hover{
+                 background-color: white;
+                 color: black; 
+        }
+        .footer{
+          text-align: center;
+
+          margin: 50px;
+          
 
         }
+        .footer_h3{
+          color: white;
+          font-size: 30px;
+          margin: 30px;
+        }
+     
